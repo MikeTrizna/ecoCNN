@@ -1,0 +1,15 @@
+name: ecocnn
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+dependencies:
+  - tensorflow-gpu=1
+  - gdal
+  - rasterio
+  - fiona
+  - matplotlib
+  - notebook
+  - keras
+  - watermark
+
